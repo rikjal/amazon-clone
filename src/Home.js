@@ -4,6 +4,7 @@ import './Product'
 import Product from './Product'
 
 const Home = () => {
+
     return (
         <div className="home">
             <img className="home__image"
@@ -44,7 +45,7 @@ const Home = () => {
                 />
             </div>
             <div className="home__row">
-            <Product id="123455"
+                <Product id="123455"
                     title="1000 mAh Power Bank: URBN"
                     price={11.96}
                     rating={3}
