@@ -4,7 +4,7 @@ import './Product'
 import Product from './Product'
 
 const Home = () => {
-
+    
     return (
         <div className="home">
             <img className="home__image"
